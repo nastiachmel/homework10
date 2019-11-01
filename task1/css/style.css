@@ -6,7 +6,7 @@
   url('../font/raleway.heavy.woff2');
 }
 .mainer{
-  width: 1500px;
+ max-width: 1500px;
 }
 .title{
   font-size: 90px; 
@@ -19,7 +19,7 @@
   font-size: 17px;
   text-align: center;
   font-weight: 300;
-  width: 40%;
+  width: 42%;
   margin: 0 auto;
   line-height: 22px;
   margin-bottom: 3%;
@@ -27,7 +27,8 @@
 ul{  
   display: flex;
   list-style: none;
-  padding-left: 12%;
+  padding: 0;
+  justify-content: center;
 }
 .article{
   width: 27%;  
@@ -100,8 +101,7 @@ button{
   font-size: 20px;
   font-weight: 300;
   background-color: #f72b3b;
-  width: 200px;
-  height: 60px;
+  width: 15%;
   border: 0;
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -110,6 +110,7 @@ button{
   margin-bottom: 4%;
   cursor: pointer;
   box-shadow: 0 0 15px #9b6dd9;
+  padding:1%;
 }
 button:hover{
   background-color: hsl(355, 65%, 42%);
