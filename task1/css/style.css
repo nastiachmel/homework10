@@ -1,0 +1,116 @@
+@font-face{
+  font-family: 'Raleway-heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../font/Raleway-Heavy.woff'),
+  url('../font/raleway.heavy.woff2');
+}
+.mainer{
+  width: 1500px;
+}
+.title{
+  font-size: 90px; 
+  text-align: center; 
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+.text{
+  font-size: 17px;
+  text-align: center;
+  font-weight: 300;
+  width: 40%;
+  margin: 0 auto;
+  line-height: 22px;
+  margin-bottom: 3%;
+}
+ul{  
+  display: flex;
+  list-style: none;
+  padding-left: 12%;
+}
+.article{
+  width: 27%;  
+  margin-right: 30px; 
+  cursor: pointer;
+  box-shadow: 0 0 15px #714f9e;
+
+}
+ul:hover .article{
+  opacity: 0.8;
+}
+.article:nth-child(1):hover{  
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.article:nth-child(2):hover{
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.article:nth-child(3):hover{
+  opacity: 1;
+  transform: scale(1.2);
+}
+.article:nth-child(1){
+  background-image: url(../img/img1.png);
+}
+.article:nth-child(2){
+  background-image: url(../img/img2.png);
+}
+.article:nth-child(3){
+  background-image: url(../img/img3.png);
+  margin-right: 0;
+}
+.data{
+  margin-top: 8%;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: #464c56;
+  opacity: 0.8;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  margin-left: 8%;
+  text-align: center;
+}
+.data .month{
+  font-size: 21px;
+  font-family: 'Raleway-Heavy';
+  display: block;
+}
+.title-article{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 31%;
+  padding-bottom: 6%;
+}
+.author{
+  font-weight: 300;
+  font-size: 13px;
+  display: block;
+  margin-top: 6%;
+}
+
+button{
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #f72b3b;
+  width: 200px;
+  height: 60px;
+  border: 0;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 43%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  cursor: pointer;
+  box-shadow: 0 0 15px #9b6dd9;
+}
+button:hover{
+  background-color: hsl(355, 65%, 42%);
+}

@@ -1,0 +1,109 @@
+.mainer{
+  width: 1170px;
+  margin: 0 auto;
+
+ }
+@font-face{
+  font-family: 'Icomoon';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/icomoon.woff),
+  url(../font/icomoon.ttf);
+}
+.title{
+  color: #3c3c3c;
+  font-weight: bold;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 9%; 
+}
+.text{
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  overflow-wrap: break-word;
+}
+hr{
+  width: 3%;
+  height: 4px;
+  background-color: #dddbdb;
+  border: 0;
+  margin-bottom: 3%;
+}
+li{
+  width: 270px;
+  height: 270px;
+  cursor: pointer;
+
+  }
+ul{
+  display: flex;
+  list-style: none;
+  justify-content:space-between;
+  padding: 0;
+ 
+}
+.social-network{
+display: flex;
+opacity: 0;
+position: absolute;
+bottom: 120px;
+left: 76px;
+}
+li:hover img{
+ opacity: 0; 
+}
+li:hover .social-network{
+  opacity: 1;
+}
+.bg{
+  background-color: #18b5dc;
+  position: relative;
+}
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-google:before {
+  content: "\e903";
+}
+
+.icon-facebook,
+.icon-google,
+.icon-twitter{
+  font-family: "Icomoon";
+    font-size: 27px;
+    color: white;
+    background-color: #5ecbe7;
+     margin-left: 3px;
+    padding: 5px;
+}
+img{
+  height: 270px;
+  margin-bottom: 15px;
+}
+a{
+  text-decoration: none;
+}
+.icon-twitter:hover,
+.icon-google:hover,
+.icon-facebook:hover
+ {
+background-color: hsl(192, 72%, 39%);
+}
+.name{
+font-weight: bold;
+text-align: left;
+font-size: 18px;
+}
+.profession{
+font-weight: 300;
+text-align: left;
+color: #9e9e9e;
+}
